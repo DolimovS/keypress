@@ -53,7 +53,7 @@ h1{
         width: 70%;
         height: 30px;
         font-size: large;
-     }
+    }
     
 }
 @media( max-width:510px) {
@@ -68,7 +68,7 @@ h1{
         width: 70%;
         height: 20px;
         font-size: large;
-     }
+}
     
 }
 @media( max-width:510px) {
@@ -83,7 +83,7 @@ h1{
         width: 70%;
         height: 20px;
         font-size: 10px;
-     }
+}
     
 }
 
