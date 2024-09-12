@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    height: 100vh;
+    /* border: 1px solid red; */
+}
+.box{
+    width: 350px;
+    height: 350px;
+    border: 1px solid black;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+     rgba(0, 0, 0, 0.3) 0px 7px 13px -3px,
+      rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: 100;
+    font-style: normal;
+}
+h1{
+   width: 70%;
+   height: 40px;
+   text-align: center;
+   box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px,
+    rgba(17, 17, 26, 0.1) 0px 8px 24px, 
+   rgba(17, 17, 26, 0.1) 0px 16px 48px;
+}
+
+
+@media( max-width:1110px) {
+    .box{
+        width: 250px;
+        height: 250px;
+    }
+    
+}
+@media( max-width:810px) {
+    .box{
+        width: 150px;
+        height: 150px;
+    }
+    h1{
+        width: 70%;
+        height: 30px;
+        font-size: large;
+     }
+    
+}
+@media( max-width:510px) {
+    .box{
+        width: 100px;
+        height: 100px;
+    }
+    .box1{
+        gap: 15px;
+    }
+    h1{
+        width: 70%;
+        height: 20px;
+        font-size: large;
+     }
+    
+}
+@media( max-width:510px) {
+    .box{
+        width: 70px;
+        height: 70px;
+    }
+    .box1{
+        gap: 10px;
+    }
+    h1{
+        width: 70%;
+        height: 20px;
+        font-size: 10px;
+     }
+    
+}
+
+
+
+
